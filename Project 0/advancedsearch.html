@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+
+        <div class="GoogleButtonsTop"> 
+            <div id="smallLogo"><img id="GoogleImgSmall" src="Assets/Google Logo.png" alt="Google"></div>
+            <a href="imagesearch.html">            
+                <button type="link">Image Search</button> 
+            </a>
+            <a href="index.html">
+                <button>Google Search</button>
+            </a>
+        </div>
+
+        <div class="Label">
+            <label style="margin-left: 10px;">Advanced Search</label>
+        </div>
+
+        <div id="line"></div>
+
+        <div class="AdvancedForm">
+            <form class="ASForm" action="https://google.com/search" method="GET" name="f">
+                <div id="FormTitle">
+                    <span>Find pages with...</span>
+                </div>
+                <div class="ATW">
+                    <div class="FormText">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="FormInput">
+                        <input class="TextInput" value name="as_q" type="text">
+                    </div>
+                </div>
+                <div class="EPH">
+                    <div class="FormText">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                    <div class="FormInput">
+                        <input class="TextInput" value name="as_epq" type="text">
+                    </div>
+                </div>
+                <div class="AoTW">
+                    <div class="FormText">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="FormInput">
+                        <input class="TextInput" value name="as_oq" type="text">
+                    </div>
+                </div>
+                <div class="NoTW">
+                    <div class="FormText">
+                        <label>none of these words:</label>
+                    </div>
+                    <div class="FormInput">
+                        <input class="TextInput" value name="as_eq" type="text">
+                    </div>
+                </div>
+                <div class="AdvInput">
+                    <button type="submit"> Advanced Search </button>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>

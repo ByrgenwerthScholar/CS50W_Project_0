@@ -1,0 +1,264 @@
+body {
+  background: #202124;
+  font-family: arial, sans-serif;
+}
+
+.SearchBox {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.SearchBox:hover {
+  background-color: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.Position {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+
+#SearchIcon {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.Icon {
+  margin: auto;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.material-icons.md-18 {
+  font-size: 22px;
+}
+
+.Icon {
+  margin: auto;
+}
+
+span[class="material-icons md-light md-inactive md-18"] {
+  margin-top: 4px;
+}
+
+.a4 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.TextInput {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
+  font-size: 16px;
+}
+
+.Up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.GoogleLogo {
+  max-height: 92px;
+  height: 100%;
+  margin-top: 192px;
+}
+
+#GoogleImg {
+  margin-top: auto;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+  height: 92px;
+  width: auto;
+  max-width: auto;
+  max-height: auto;
+}
+
+.Form {
+  padding: 20px;
+  max-height: 160px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.TextInput input[type=text] {
+  color: transparent;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #e8eaed;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  width: 100%;
+  font-size: 16px;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.GoogleButtons button, .GoogleButtonsTop button {
+  margin: 11px 4px;
+  padding: 0 16px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #bdc1c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.GoogleButtons button:hover, .GoogleButtonsTop button:hover {
+  background-color: #414245;
+}
+
+.GoogleButtonsTop {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+#GoogleImgSmall {
+  margin-top: 15px;
+  -o-object-position: left top;
+     object-position: left top;
+  height: 24px;
+  max-width: 74px;
+}
+
+#smallLogo {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.Label {
+  vertical-align: baseline;
+  font-size: 20px;
+  margin: 25px 35px;
+  color: #f28b82;
+}
+
+#line {
+  border-top: 1px solid #3c4043;
+}
+
+.ASForm {
+  color: #e8eaed;
+  margin: 40px 2% 0 45px;
+}
+
+#FormTitle {
+  min-width: 167px;
+  min-height: 42px;
+  font-size: 16px;
+  font-weight: 500px;
+  vertical-align: middle;
+}
+
+#emptyInput {
+  width: 100%;
+}
+
+.FormText {
+  height: 42px;
+  font-size: 13px;
+  vertical-align: bottom;
+  min-width: 42px;
+  flex: 1;
+}
+
+.FormInput {
+  flex: 2;
+  justify-self: flex-end;
+  margin-right: 600px;
+  min-width: 167px;
+  min-height: 41px;
+  width: 50%;
+  padding-right: 16px;
+}
+
+.FormInput input[type=text] {
+  color: #e8eaed;
+  font-size: 13px;
+  height: 25px;
+  text-align: left;
+  padding: 1px 8px;
+  border: 1px solid #e8eaed;
+  border-radius: 1px;
+  background: transparent;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.AoTW, .NoTW, .ATW, .EPH {
+  display: flex;
+}
+
+.AdvInput button[type=submit] {
+  margin-right: 600px;
+}
+
+.AdvInput {
+  text-align: right;
+}
+
+.AdvInput button {
+  text-align: center;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 0 12px;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  min-width: 120px;
+  height: 30px;
+}/*# sourceMappingURL=indexstyle.css.map */
